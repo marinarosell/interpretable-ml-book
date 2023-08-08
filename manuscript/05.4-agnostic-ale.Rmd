@@ -481,7 +481,7 @@ ggplot(alecat1$results) +
 ```
 
 Since many of the features are related to weather, the order of the months strongly reflects how similar the weather is between the months.
-All colder months are on the left side (February to April) and the warmer months on the right side (October to August). 
+All warmer months on the left side (August to October) and the colder months are on the right side (April to February). 
 Keep in mind that non-weather features have also been included in the similarity calculation, for example relative frequency of holidays has the same weight as the temperature for calculating the similarity between the months.
 
 Next, we consider the second-order effect of humidity and temperature on the predicted number of bikes.
